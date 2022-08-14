@@ -1,0 +1,19 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello", "hi", "hey", "wake up", "Ok", "jarvis"],
+            "responses":["Hello Sir", "Hi Sir", "I am always there for you sir"]
+        },
+        {
+            "tag":"bye",
+            "patterns":["bye", "good bye", "see you later", "go to sleep", "have some rest"],
+            "responses":["Good bye Sir", "See you soon Sir", "Ok Sir, you can call me any time!"]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you", "are you fine", "are you good"],
+            "responses":["I am fine sir", "I am fabulous sir"]
+        }
+    ]
+}
